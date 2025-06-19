@@ -1,0 +1,57 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme -->
+    <style name="Theme.Lushdrobe" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+    <!-- Primary brand colors -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Secondary brand colors -->
+        <item name="colorSecondary">@color/colorAccent</item>
+        <item name="colorSecondaryVariant">#8889F2</item> <!-- Slightly darker purple variant -->
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!-- Background and text -->
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textColorSecondary">@color/textColorSecondary</item>
+
+        <!-- Status bar -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+
+        <!-- Component styles -->
+        <item name="actionBarStyle">@style/Widget.Lushdrobe.ActionBar</item>
+        <item name="bottomNavigationStyle">@style/Widget.Lushdrobe.BottomNavigationView</item>
+    </style>
+
+    <!-- ActionBar style -->
+    <style name="Widget.Lushdrobe.ActionBar" parent="Widget.MaterialComponents.ActionBar.Primary">
+        <item name="background">@color/colorPrimary</item>
+        <item name="titleTextStyle">@style/Widget.Lushdrobe.TextView.Title</item>
+    </style>
+
+    <!-- Text styles -->
+    <style name="Widget.Lushdrobe.TextView.Title" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Bottom Navigation style -->
+    <style name="Widget.Lushdrobe.BottomNavigationView" parent="Widget.MaterialComponents.BottomNavigationView.Colored">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.Lushdrobe.BottomNavigationView</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <style name="ThemeOverlay.Lushdrobe.BottomNavigationView" parent="">
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorOnSurface">@color/white</item>
+    </style>
+
+    <!-- NoActionBar theme -->
+    <style name="Theme.Lushdrobe.NoActionBar" parent="Theme.Lushdrobe">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>

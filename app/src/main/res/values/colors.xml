@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF9EB5</color> <!-- Soft pink -->
+    <color name="colorPrimaryDark">#D67F95</color> <!-- Darker pink -->
+    <color name="colorAccent">#A5A6F6</color> <!-- Soft purple -->
+    <color name="background">#FFF9F9</color> <!-- Very light pink/beige -->
+    <color name="textColor">#5A5A5A</color> <!-- Dark gray -->
+    <color name="lightBlue">#B5E1FA</color> <!-- Soft blue -->
+    <color name="colorError">#FF5252</color> <!-- For error states -->
+    <color name="colorSuccess">#4CAF50</color> <!-- For success states -->
+    <color name="dividerColor">#EEEEEE</color> <!-- For dividers -->
+    <color name="white">#FFFFFF</color>
+    <color name="colorControlHighlight">#33FFFFFF</color>
+    <color name="purple_500">#A5A6F6</color> <!-- Using your accent color -->
+    <color name="black">#000000</color>
+    <color name="textColorSecondary">#3B2364</color>
+
+</resources>
